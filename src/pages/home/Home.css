@@ -1,0 +1,90 @@
+.searchBox{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+#cityDropdown{
+margin: 0px 20px;
+}
+
+#categoryDropdown{
+margin: 0px 20px;
+}
+
+.tablewithpagination{
+  display: flex;
+  flex-direction: column;
+}
+
+.paginationbtn{
+  width: 80%;
+  /* height: 400px; */
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+}
+
+.paginationbtn a{
+  padding: 6px;
+  margin: 8px;
+  border-radius: 5px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+
+.paginationbtn a:hover{
+  color: white;
+  background-color: rgb(55, 65, 204);
+}
+
+.paginationActive a{
+  color: white;
+  background-color: rgb(55, 65, 204);
+}
+
+.alert{
+  width: fit-content;
+  padding: 1px;
+  float: right;
+}
+
+.main-heading{
+  color: black; 
+  font-family:'Times New Roman', Times, serif
+}
+
+.previousBttn{
+  color: white;
+}
+
+.nextBttn{
+  color: white;
+}
+
+.loader{
+  margin-top: 35%;
+}
+
+.label{
+  margin-top: 7px;
+  margin-left: 8px;
+}
+
+#rowsperpage{
+  width: auto;
+  margin-top: -1%;
+}
+
+.bottom{
+  display: flex;
+}
+
+.label2{
+  color: white;
+  width: 25%;
+  position: relative;
+  left: 4%;
+}

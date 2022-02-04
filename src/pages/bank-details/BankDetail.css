@@ -1,0 +1,26 @@
+.details {
+    text-align: center;
+    justify-content: center;
+}
+
+.main-detail{
+    background-color: rgb(153 24 72 / 43%);
+    height: 400px;
+    width: 400px;
+    margin: 20px auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.address{
+    text-align: center;
+}
+
+.loader{
+    margin-top: 10%;
+    margin-bottom: 10%;
+}

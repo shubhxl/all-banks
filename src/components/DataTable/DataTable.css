@@ -1,0 +1,32 @@
+.table{
+  table-layout: fixed;
+  word-wrap: break-word;
+}
+
+.table td, .table th{
+    vertical-align: middle;
+    min-width: 200px;
+}
+
+.not-found{
+  width: 300px;
+  margin-left: 180%;
+  margin-top: 15%;
+  color: rgb(165, 61, 42);
+  font-weight: bold;
+}
+
+.main-table{
+  overflow-y: auto;
+  height: 500px;
+}
+
+.main-table thead th{
+  position: sticky;
+  top: 0;
+}
+
+::-webkit-scrollbar{
+  width: 0;
+  background: transparent;
+}
